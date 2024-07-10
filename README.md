@@ -1,4 +1,4 @@
-# AJACS100-2024-06-20
+# AJACS100-2024-07-25
 # データ解析講習会：AJACS<br/>〜MAG (Metagenome-Assembled Genome) を知って・学んで・使う〜
 
 ### NBDC事業推進室 公式ウェブページ
