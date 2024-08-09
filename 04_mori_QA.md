@@ -1,0 +1,6 @@
+- Q1: MAGのクオリティはどうやって評価するのですか？
+  - A1: CheckM2というツール[https://github.com/chklovski/CheckM2](https://github.com/chklovski/CheckM2)を用いてcompletenessとcontaminationという二つの統計量を計算してMAGごとに評価することが多いです。CheckM2は原核生物で広範囲に保存されておりかつそれらほとんどの系統のゲノム中に1コピーのみ存在するsingle copy遺伝子を用います。single copy遺伝子が何種類MAGから見つかるかでcompletenessの%を計算し、2コピー以上見つかるsingle copy遺伝子が何種類存在するかでcontaminationの%を計算します。completenessが90%以上、contaminationが10%未満でないと比較ゲノム解析にそのMAGを利用するのは難しい印象です。
+- Q2: 聞き逃したのかもしれませんが、p.21, 23,24の表の数字は、どこから集計されたものでしょうか。「検索する」のパートでご紹介されたデータベースの2月時点での集計値でしょうか。
+  - A2: NCBIに登録されているメタゲノムのBioSample、BioProjectの数をカウントしたものになるので、基本はNCBIのデータの集計値ですが、私の方でメタデータを元にある程度チェックしてフィルタリングしているので単純なデータベースの検索結果の値とは異なります。
+- Q3: 登録すべきデータベース、というのが決まっているのでしょうか。基本的な問いで申し訳ありません。
+  - A3: 公共の塩基配列リポジトリ(INSDC)を構成する、NCBI GenBank、EBI ENA、DDBJの3つのデータベースのどれかに登録するのが原則となっております。
